@@ -8,7 +8,6 @@
 		for j in range(i+1,n):
 			if l[p]>l[j] and len(l[p])==len(l[j]):
 				p=j
-		print(p)
 		if p!=i:
 			t=l[i]
 			l[i]=l[p]
