@@ -13,3 +13,4 @@ def main():
         ss.append(s+sum)
     for i in range(n):
         print(ss[i],end="\t")
+main()
