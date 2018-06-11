@@ -8,4 +8,5 @@ def gcd(l):
 		if f!=1:
 			val=i
 	print(val)
+n=int(input())
 gcd(list(map(int,input().split())))
